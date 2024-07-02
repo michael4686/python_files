@@ -119,11 +119,11 @@ Here are some sample commands to help you run/test your implementations.
 Feel free to uncomment/modify/add to them as you wish.
 '''
 def main():
-    file_contents = read_file("good_files\sampletext.txt")
-    print(read_file_into_list("good_files\sampletext.txt"))
-    write_first_line_to_file(file_contents, "good_files\online.txt")
-    print(read_even_numbered_lines("good_files\sampletext.txt"))
-    print(read_file_in_reverse("good_files\sampletext.txt"))
+    file_contents = read_file("text_files\sampletext.txt")
+    print(read_file_into_list("text_files\sampletext.txt"))
+    write_first_line_to_file(file_contents, "text_files\online.txt")
+    print(read_even_numbered_lines("text_files\sampletext.txt"))
+    print(read_file_in_reverse("text_files\sampletext.txt"))
 
 if __name__ == "__main__":
     main()
